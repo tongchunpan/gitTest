@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        cluster-name: HZ
+        namespace: dev
+
+  application:
+    name: product
